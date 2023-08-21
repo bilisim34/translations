@@ -1,11 +1,10 @@
 <?php
 
 return [
-    'create' => 'Yeni Kategori Oluştur',
-    'edit' => 'Kategoriyi Düzenle',
+    'create' => 'Yeni kategori oluştur',
     'menu' => 'Kategoriler',
     'edit_this_category' => 'Bu kategoriyi düzenle',
     'menu_name' => 'Kategoriler',
-    'none' => 'Veri yok',
-    'total_posts' => 'Toplam Gönderi: :total',
+    'none' => 'Yok',
+    'total_posts' => 'Toplam gönderiler: :total',
 ];
