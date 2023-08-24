@@ -24,4 +24,5 @@ return [
     'to_add_more_image' => 'daha fazla resim seç',
     'add_image' => 'Resim ekle',
     'tools' => 'Araçlar',
+	'module' => 'Modüller',
 ];
