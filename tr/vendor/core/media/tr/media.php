@@ -29,6 +29,7 @@ return [
     'folder_name' => 'Dosya adı',
     'create' => 'Oluştur',
     'rename' => 'Yeniden adlandır',
+    'crop' => 'Crop',                
     'close' => 'Kapat',
     'save_changes' => 'Değişiklikleri kaydet',
     'move_to_trash' => 'Çöpe taşı',
@@ -40,8 +41,11 @@ return [
     'empty_trash_description' => 'İsteğiniz geri alınamaz. Çöp kutusundaki tüm öğeleri kaldırmak istediğinizden emin misiniz?',
     'up_level' => 'Bir seviye yukarı',
     'upload_progress' => 'Yükleme ilerlemesi',
+    'alt_text' => 'Alt text',                        
+
     'folder_created' => 'Dosya başarıyla oluşturuldu!',
     'gallery' => 'Medya galeri',
+
     'trash_error' => 'Error when delete selected item(s)',
     'trash_success' => 'Moved selected item(s) to trash successfully!',
     'restore_error' => 'Error when restore selected item(s)',
@@ -52,6 +56,7 @@ return [
     'remove_favorite_success' => 'Remove selected item(s) from favorites successfully!',
     'rename_error' => 'Error when rename item(s)',
     'rename_success' => 'Rename selected item(s) successfully!',
+    'crop_success' => 'Crop image successfully!',                                            
     'empty_trash_success' => 'Empty trash successfully!',
     'invalid_action' => 'Invalid action!',
     'file_not_exists' => 'File is not exists!',
@@ -61,20 +66,25 @@ return [
     'invalid_request' => 'Invalid request!',
     'add_success' => 'Add item successfully!',
     'file_too_big' => 'File too big. Max file upload is :size bytes',
+    'file_too_big_readable_size' => 'File too big. Max file upload is :size.',                                                                        
     'can_not_detect_file_type' => 'File type is not allowed or can not detect file type!',
     'upload_failed' => 'The file is NOT uploaded completely. The server allows max upload file size is :size . Please check your file size OR try to upload again in case of having network errors',
+    'failed_to_crop_image' => 'The file cropping must be image type',                                                                
     'menu_name' => 'Media',
     'add' => 'Add media',
+
     'javascript' => [
         'name' => 'Name',
         'url' => 'URL',
         'full_url' => 'Full URL',
+        'alt' => 'Alt text',                    
         'size' => 'Size',
         'mime_type' => 'Type',
         'created_at' => 'Uploaded at',
         'updated_at' => 'Modified at',
         'nothing_selected' => 'Nothing is selected',
         'visit_link' => 'Open link',
+
         'no_item' => [
             'all_media' => [
                 'icon' => 'fas fa-cloud-upload-alt',
@@ -102,24 +112,30 @@ return [
                 'message' => 'This directory has no item',
             ],
         ],
+
         'clipboard' => [
             'success' => 'These file links has been copied to clipboard',
         ],
+
         'message' => [
             'error_header' => 'Error',
             'success_header' => 'Success',
         ],
+
         'download' => [
             'error' => 'No files selected or cannot download these files',
         ],
+
         'actions_list' => [
             'basic' => [
                 'preview' => 'Preview',
+                'crop' => 'Crop',                
             ],
             'file' => [
                 'copy_link' => 'Copy link',
                 'rename' => 'Rename',
                 'make_copy' => 'Make a copy',
+                'alt_text' => 'ALT text',                        
             ],
             'user' => [
                 'favorite' => 'Add to favorite',
@@ -132,6 +148,10 @@ return [
                 'restore' => 'Restore',
             ],
         ],
+        'change_image' => 'Change image',
+        'delete_image' => 'Delete image',
+        'choose_image' => 'Choose image',
+        'preview_image' => 'Preview image',                                                                
     ],
     'name_invalid' => 'The folder name has invalid character(s).',
     'url_invalid' => 'Please provide a valid URL',
@@ -140,4 +160,13 @@ return [
     'url' => 'URL',
     'download_explain' => 'Enter one URL per line.',
     'downloading' => 'Downloading...',
+    'prepare_file_to_download' => 'Preparing file to download...',
+    'update_alt_text_success' => 'Update alt text successfully!',
+
+    'cropper' => [
+        'height' => 'Height',
+        'width' => 'Width',
+        'aspect_ratio' => 'Aspect ratio?',
+    ],
+    'unable_to_write' => 'Unable to write file. Please chmod folder ":folder" to make it writeable!',
 ];

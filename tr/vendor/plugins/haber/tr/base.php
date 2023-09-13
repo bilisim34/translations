@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'menu_name' => 'Haber',
+    'blog_page' => 'Haber Sayfası',
+    'select' => '-- Seç --',
+    'blog_page_id' => 'Haber sayfası',
+    'number_posts_per_page' => 'Sayfa başına haber',
+    'write_some_tags' => 'Etiket yaz',
+    'short_code_name' => 'Haber gönderileri',
+    'short_code_description' => 'Haber gönderisi ekle',
+    'number_posts_per_page_in_category' => 'Kategori başına gönderi adedi',
+    'number_posts_per_page_in_tag' => 'Gönderi başına etiket adedi',
+    'settings' => [
+        'title' => 'Haber',
+        'description' => 'Haber Ayarları',
+        'enable_blog_post_schema' => 'Haber Gönderi Şemasını Aktif Et?',
+        'enable_blog_post_schema_description' => 'Daha fazla oku: https://schema.org/Article',
+        'schema_type' => 'Şema tipi',
+    ],
+    'base-name'     =>'Haber Yerleşimi',
+    'headline'      =>'Manşet',
+    'topheadline'   =>'Üst Manşet',
+    'featured'      =>'Öne Çıkanlar',
+    'breaking'      =>'Son Dakika',
+    'flash'         =>'Flaş Haber',
+    'box'           =>'Kutu Haber',
+    'exclusive'     =>'Özel Haber',
+    'story'         =>'Hikayeler',
+    'editorspick'   =>'Editör\'ün Seçtiği',
+    'sitemap_off'   =>'Sitemap\' de yer almasın',
+    'comments_off'  =>'Yorumlara kapalı',
+];
