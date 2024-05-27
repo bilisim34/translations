@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'city' => 'İlçe',
-    'country' => 'Ülke',
-    'create' => 'Yeni İlçe',
-    'edit' => 'İlçeyi Düzenle',
     'name' => 'İlçeler',
-    'select_city' => 'İlçe Seçiniz...',
-    'select_country' => 'Ülke Seçiniz...',
-    'select_state' => 'İl Seçiniz...',
-    'state' => 'İl',
+    'description' => 'Konum şehirlerini yönet',
+    'create' => 'Yeni İlçe',
+    'state' => 'Eyalet',
+    'select_state' => 'İl seçin...',
+    'select_city' => 'İlçe seçin...',
+    'country' => 'Ülke',
+    'select_country' => 'Ülke seçin...',
+    'city' => 'İlçe',
 ];

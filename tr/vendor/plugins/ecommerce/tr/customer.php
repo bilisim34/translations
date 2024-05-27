@@ -23,4 +23,13 @@ return [
         'locked' => 'Kilitli',
     ],
     'email_verified' => 'E-posta Doğrulandı Mı?',
+	'verify_email' => [
+        'confirm_heading' => 'E-posta onayını doğrula',
+        'confirm_description' => 'Bu müşterinin e-postasını doğrulamak istediğinizden emin misiniz?',
+        'notification' => 'Bu müşterinin e-postası henüz doğrulanmadı mı? E-postayı doğrulamak için :approve_link',
+        'approve_here' => 'buraya tıklayın',
+        'confirm_button' => 'Doğrula',
+    ],
+    'private_notes' => 'Özel notlar',
+    'private_notes_helper' => 'Özel notlar sadece yöneticiler tarafından görülebilir',
 ];

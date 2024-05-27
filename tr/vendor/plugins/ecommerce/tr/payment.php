@@ -2,6 +2,7 @@
 
 return [
     'name' => 'Ödemeler',
+    'description' => 'Ödeme ayarlarınızı görüntüleyin ve güncelleyin',															  
     'payment_method' => 'Ödeme Yöntemleri',
     'view_payment' => 'Ödeme Numarasını Görüntüle',
     'charge_id' => 'Ödeme Kimliği',
@@ -18,7 +19,7 @@ return [
     'client_id' => 'Müşteri Kimliği',
     'client_secret' => 'Müşteri Gizliliği Politikası',
     'mode' => 'Mod',
-    'sandbox' => 'Kum Havuzu',
+    'sandbox' => 'Sandbox(test Ortamı)',
     'live' => 'Canlı',
     'enable_payment_log' => 'Ödeme Günlüğünü Etkinleştir',
     'yes' => 'Evet',
@@ -46,7 +47,14 @@ return [
     'payment_details' => 'Ödeme Detayları',
     'card' => 'Kart',
     'address' => 'Adres',
-    'could_not_get_stripe_token' => 'Ödeme yapmak için Stripe jetonu alınamadı.',
     'new_payment' => 'Sipariş için ödeme :id',
     'payment_id' => 'Ödeme Kimliği',
+    'order' => 'Sipariş',
+    'add_payment' => 'Ödeme ekle',
+    'add_new_payment' => 'Yeni ödeme',
+    'add' => 'Ekle',
+    'no_data' => 'Görüntülenecek veri yok',
+    'no_option' => 'Seçenek yok',
+    'edit_payment' => 'Ödemeyi düzenle',
+    'save' => 'Kaydet',				 
 ];

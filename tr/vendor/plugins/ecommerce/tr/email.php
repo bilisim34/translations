@@ -7,6 +7,8 @@ return [
     'order_cancellation_description' => 'Siparişi iptal ettiklerinde özele gönder',
     'delivery_confirmation_title' => 'Teslim Onayı',
     'delivery_confirmation_description' => 'Sipariş teslim edilirken müşteriye gönder',
+    'order_delivered_title' => 'Sipariş teslim edildi',
+    'order_delivered_description' => 'Sipariş teslim edildiğinde müşteriye gönder',
     'admin_new_order_title' => 'Yeni sipariş hakkında bildirim',
     'admin_new_order_description' => 'Bir sipariş verildiğinde yöneticilere gönder',
     'order_confirmation_title' => 'Sipariş Onayı',

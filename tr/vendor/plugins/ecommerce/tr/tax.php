@@ -2,10 +2,22 @@
 
 return [
     'name' => 'Vergiler',
-    'create' => 'Vergi Oluştur',
-    'edit' => 'Vergiyi Düzenle :title',
+    'description' => 'Ürünlerinizin ayarlarını görüntüleyin ve güncelleyin',
+    'create' => 'Bir vergi oluştur',
+    'edit' => 'Vergi :title\'yi düzenle',
     'title' => 'Başlık',
-    'percentage' => 'Yüzde (%)',
+    'percentage' => 'Yüzde %',
     'priority' => 'Öncelik',
-    'select_tax' => '-- Seç --',
+    'default' => 'Varsayılan',
+    'country' => 'Ülke',
+    'state' => 'State',
+    'city' => 'Şehir',
+    'zip_code' => 'Posta Kodu',
+    'rules' => 'Kurallar',
+    'tax' => 'Vergi',
+    'rule' => [
+        'name' => 'Vergi kuralları',
+        'create' => 'Bir vergi kuralı oluştur',
+        'edit' => 'Vergi kuralını düzenle :title',
+    ],
 ];

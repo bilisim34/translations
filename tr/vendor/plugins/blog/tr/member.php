@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'dob' => 'Born :date',
-    'draft_posts' => 'Draft Posts',
-    'pending_posts' => 'Pending Posts',
-    'published_posts' => 'Published Posts',
-    'posts' => 'Posts',
-    'write_post' => 'Write a post',
+    'dob' => 'Doğum : date',
+    'draft_posts' => 'Taslak Mesajlar',
+    'pending_posts' => 'Bekleyen Gönderiler',
+    'published_posts' => 'Yayınlanmış Gönderiler',
+    'posts' => 'Gönderiler',
+    'write_post' => 'Bir yazı yaz',
 ];

@@ -1,15 +1,14 @@
 <?php
 
 return [
+    'joined_on' => 'Katılma : date',
+    'dob' => 'Doğum : date',
 
-    'joined_on' => 'Katılım :date',
-    'dob' => 'Doğum :date',
-
-    'email' => 'Email',
+    'email' => 'E-posta',
     'password' => 'Şifre',
     'password-confirmation' => 'Şifreyi Onayla',
     'remember-me' => 'Beni Hatırla',
-    'login-title' => 'Login',
+    'login-title' => 'Giriş',
     'login-cta' => 'Giriş',
     'register-title' => 'Kaydol',
     'register-cta' => 'Kaydol',
@@ -22,7 +21,7 @@ return [
 
     'header_profile_link' => 'Profil',
     'header_settings_link' => 'Ayarlar',
-    'header_logout_link' => 'Logout',
+    'header_logout_link' => 'Çıkış',
     'unknown_state' => 'Bilinmiyor',
 
     'close' => 'Kapat',
@@ -43,6 +42,7 @@ return [
 
     'sidebar_title' => 'Kişisel ayarlar',
     'sidebar_information' => 'Hesap Bilgileri',
+	'change_password' => 'Şifreyi değiştir',
     'sidebar_security' => 'Güvenlik',
 
     'account_field_title' => 'Hesap Bilgileri',
@@ -58,19 +58,25 @@ return [
     'birthday' => 'Doğum Günü',
     'year_lc' => 'yıl',
     'ay_lc' => 'ay',
-    'month_lc' => 'day',
+    'day_lc' => 'gün',
     'gender' => 'Cinsiyet',
     'gender_male' => 'Erkek',
     'gender_female' => 'Kadın',
     'gender_other' => 'Diğer',
+
     // Güvenlik
     'security_title' => 'Güvenlik',
-    'current_password' => 'Geçerli şifre',
+    'current_password' => 'Geçerli parola',
     'password_new' => 'Yeni şifre',
     'password_new_confirmation' => 'Onay şifresi',
     'password_update_btn' => 'Şifreyi güncelle',
+    'current_password_not_valid' => 'Mevcut parola geçerli değil',
+    'password_update_success' => 'Parolayı başarıyla güncelleyin!',
+
     'activity_logs' => 'Etkinlik Günlükleri',
-    'oops' => 'Oops!',
+
+    'oops' => 'Eyvah!',
+	'no_activity_title' => 'Henüz İçerik Yok!',
     'no_activity_logs' => 'Henüz etkinlik günlüğünüz yok',
     'actions' => [
         'create_post' => '":name" gönderisini oluşturdunuz',
@@ -84,5 +90,5 @@ return [
     'load_more' => 'Daha fazla yükle',
     'loading_more' => 'Yükleniyor...',
     'back-to-login' => 'Giriş sayfasına geri dön',
-
+	'resend' => 'Yeniden gönder',					 
 ];

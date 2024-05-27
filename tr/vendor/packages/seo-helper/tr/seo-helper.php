@@ -1,9 +1,13 @@
 <?php
 
 return [
-    'meta_box_header' => 'Search Engine Optimize',
-    'edit_seo_meta' => 'Edit SEO meta',
-    'default_description' => 'Setup meta title & description to make your site easy to discovered on search engines such as Google',
-    'seo_title' => 'SEO Title',
-    'seo_description' => 'SEO description',
+    'meta_box_header' => 'Google SERP / Snippet Önizleme Aracı',
+    'edit_seo_meta' => 'SEO meta düzenle',
+    'default_description' => 'Sitenizin Google gibi arama motorlarında keşfedilmesini kolaylaştırmak için meta başlık ve açıklama ayarlayın',
+    'seo_title' => 'SEO Başlığı',
+    'seo_description' => 'SEO açıklaması',
+    'seo_image' => 'SEO Resmi',
+    'allow_index' => 'Arama motorlarının bu sayfayı indekslemesine izin ver',														   
+    'index' => 'Index',
+    'noindex' => 'Dizin yok',														   
 ];

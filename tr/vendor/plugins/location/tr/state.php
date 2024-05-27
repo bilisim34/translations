@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'country' => 'Ülke',
-    'create' => 'Yeni İl',
-    'edit' => 'İli düzenle',
     'name' => 'İller',
-    'select_country' => 'Ülke Seçiniz...',
-    'state' => 'İl',
+    'description' => 'Konum durumlarını yönet',
+    'create' => 'Yeni durum',
+    'country' => 'Ülke',
+    'select_country' => 'Bir ülke seçin...',
+    'state' => 'Eyalet',
 ];

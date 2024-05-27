@@ -1,7 +1,7 @@
 <?php
 
 return [
-'title' => 'Üye',
+    'title' => 'Üye Ayarları',
     'description' => 'Üyeler için ayarlar',
     'verify_account_email' => 'Hesabın e-postasını doğrula?',
     'verify_account_email_description' => 'E-posta doğrulaması göndermek için Yönetici -> Ayarlar -> E-posta\'da e-postayı yapılandırmanız gerekir',

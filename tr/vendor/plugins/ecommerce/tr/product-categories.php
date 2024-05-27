@@ -13,4 +13,5 @@ return [
         'button_text' => 'Ürün kategorisi oluştur',
     ],
     'total_products' => 'Toplam ürün: :total',
+    'edit_this_category' => 'Bu kategoriyi düzenle',												 
 ];

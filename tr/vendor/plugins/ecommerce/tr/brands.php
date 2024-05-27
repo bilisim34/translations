@@ -28,4 +28,5 @@ return [
         'description' => 'Nike, Adidas, Bitis gibi ürün markalarını yönetin...',
         'button_text' => 'Marka oluştur',
     ],
+	'edit_this_brand' => 'Bu markayı düzenleyin',									   
 ];

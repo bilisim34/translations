@@ -1,23 +1,23 @@
 <?php
 
 return [
-    'name' => 'Onaylanmayan bayiler',
-    'verify' => 'Bayiyi onayla ":name"',
+    'name' => 'Doğrulanmamış satıcılar',
+    'verify' => 'Satıcı “:name” doğrulayın',
     'forms' => [
         'email' => 'E-posta',
         'store_name' => 'Mağaza adı',
         'store_phone' => 'Mağaza telefonu',
         'vendor_phone' => 'Telefon',
-        'verify_vendor' => 'Bayi onay durumu',
-        'registered_at' => 'Kayıt oldu',
+        'verify_vendor' => 'Satıcıyı doğrula',
+        'registered_at' => 'Kayıtlı Olduğu Yer',
     ],
-    'approve' => 'Onayla',
-    'approve_vendor_confirmation' => 'Bayi bilgilerini onayla',
-    'approve_vendor_confirmation_description' => ':vendor \'nin bu sitede satış yapmasını gerçekten onaylamak istediğinizden emin misiniz?',
-    'vendor_approval_notification' => 'Bu satıcının bu sitede satış yapmasını onaylamak istiyor musunuz? :approve_link',
+    'approve' => 'Onaylayın',
+    'approve_vendor_confirmation' => 'Satıcı onayını onayla',
+    'approve_vendor_confirmation_description' => 'Bu sitede satış yapması için :vendor\'ı gerçekten onaylamak istediğinizden emin misiniz?',
+    'vendor_approval_notification' => 'Bu :approve_link satıcıyı bu sitede satış yapması için onaylamak istiyor musunuz? ',
     'new_vendor_notifications' => [
-        'new_vendor' => 'Yeni bayi',
-        'view' => 'Gör',
-        'description' => ':customer kaydoldu ancak onaylanmadı.',
+        'new_vendor' => 'Yeni satıcı',
+        'view' => 'View',
+        'description' => ':customer kayıt oldu ancak doğrulanmadı',
     ],
 ];

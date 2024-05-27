@@ -2,6 +2,7 @@
 
 return [
     'currencies' => 'Para Birimleri',
+    'currency_setting_description' => 'Web sitesinde kullanarak para birimlerini görüntüleyin ve güncelleyin',																					
     'setting_description' => 'Web sitesinde kullanılan para birimlerinin listesi',
     'name' => 'Ad',
     'symbol' => 'Sembol',
@@ -15,9 +16,11 @@ return [
     'before_number' => 'numaradan sonra',
     'after_number' => 'numaradan sonra',
     'require_at_least_one_currency' => 'Sistem en az bir para birimi gerektirir!',
-    'enable_auto_detect_visitor_currency' => 'Ziyaretçi para birimini otomatik algılama etkinleştirilsin mi?',
-    'add_space_between_price_and_currency' => 'Fiyat ve para birimi arasına boşluk eklensin mi?',
+    'invalid_currency_name' => 'Geçersiz para birimi kodu, :currencies içinde olmalıdır',
+																								   
+					
+    'instruction' => 'Lütfen para birimi kodunu buradan kontrol edin: https://en.wikipedia.org/wiki/ISO_4217',
     'code' => 'Kod',
-    'instruction' => 'Lütfen para birimi kodunun listesini buradan kontrol edin: https://en.wikipedia.org/wiki/ISO_4217',
-    'invalid_currency_name' => 'Geçersiz para birimi kodu, :para birimi cinsinden olmalıdır.',
-];
+    'no_api_key' => 'API anahtarı yok',
+    'clear_cache_rates_successfully' => 'Önbellek döviz kurlarını başarıyla temizle',
+	];
