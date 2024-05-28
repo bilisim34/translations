@@ -25,5 +25,4 @@ return [
     'to_add_more_image' => 'to add more images',
     'add_image' => 'Add image',
     'tools' => 'Tools',
-	'module' => 'Modules',
 ];
