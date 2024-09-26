@@ -100,7 +100,7 @@ return [
                 'title' => 'Çöp kutunuzda şu anda hiçbir şey yok',
                 'message' => 'Dosyaları otomatik olarak çöp kutusuna taşımak için sil. Kalıcı olarak kaldırmak için dosyaları çöp kutusundan sil',
             ],
-            'favoriler' => [
+            'favorites' => [
                 'title' => 'Favorilerinize henüz bir şey eklemediniz',
                 'message' => 'Dosyaları daha sonra kolayca bulmak için favorilere ekle',
             ],
@@ -141,7 +141,7 @@ return [
                 'share' => 'Paylaş',
             ],
             'user' => [
-                'favori' => 'Favoriye ekle',
+                'favorite' => 'Favoriye ekle',
                 'remove_favorite' => 'Favoriyi kaldır',
             ],
             'other' => [
