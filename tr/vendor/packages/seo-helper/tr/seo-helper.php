@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'meta_box_header' => 'Google SERP / Snippet Önizleme Aracı',
-    'edit_seo_meta' => 'SEO meta düzenle',
-    'default_description' => 'Sitenizin Google gibi arama motorlarında keşfedilmesini kolaylaştırmak için meta başlık ve açıklama ayarlayın',
+    'meta_box_header' => 'Arama Motoru Optimizasyonu',
+    'edit_seo_meta' => 'SEO metasını düzenle',
+    'default_description' => 'Sitenizin Google gibi arama motorlarında kolayca bulunmasını sağlamak için meta başlık ve açıklamayı ayarlayın',
     'seo_title' => 'SEO Başlığı',
     'seo_description' => 'SEO açıklaması',
-    'seo_image' => 'SEO Resmi',
-    'allow_index' => 'Arama motorlarının bu sayfayı indekslemesine izin ver',														   
-    'index' => 'Index',
-    'noindex' => 'Dizin yok',														   
+    'seo_image' => 'SEO görseli',
+    'allow_index' => 'Arama motorlarının bu sayfayı dizine eklemesine izin ver',
+    'index' => 'Dizin',
+    'noindex' => 'Dizin yok',
 ];

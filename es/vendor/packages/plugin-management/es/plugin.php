@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'search' => 'Buscar...',
     'enabled' => 'Habilitar',
     'deactivated' => 'Desactivado',
     'activated' => 'Activado',
@@ -8,7 +9,9 @@ return [
     'deactivate' => 'Desactivar',
     'author' => 'Por',
     'update_plugin_status_success' => 'El conector se ha actualizado!',
-    'plugins' => 'Plugins',
+    'plugins' => 'Complementos',
+    'installed_plugins' => 'Complementos instalados',
+    'add_new_plugin' => 'Agregar nuevo complemento',
     'missing_required_plugins' => 'Por favor activa: :plugins para que este conector pueda funcionar correctamente.',
     'remove' => 'Eliminar',
     'remove_plugin_success' => 'El conector se ha eliminado!',
@@ -30,4 +33,19 @@ return [
     'deactivated_already' => '¡Este complemento ya está desactivado!',
     'folder_is_not_writeable' => 'La carpeta no tiene los permisos necesarios para escribir. Por favor revise el CHMOD',
     'plugin_is_not_ready' => 'El conector :name está listo!',
+    'plugins_installed' => 'Complementos instalados',
+    'plugins_add_new' => 'Añadir nuevo',
+    'update' => 'Actualizar',
+    'requirement_not_met' => 'Plugin :plugin requires plugin(s): :required_plugins. Do you want to install them and activate :plugin now?',
+    'install' => 'Instalar ahora',
+    'install_plugin' => 'Instalar complemento',
+    'minimum_core_version_not_met' => 'Plugin :plugin requires :minimum_core_version version of core, but your core version is :current_core_version. Please upgrade your core to use this plugin!',
+    'enums' => [
+        'plugin_filter_status' => [
+            'all' => 'Todo',
+            'activated' => 'Activado',
+            'not-activated' => 'No esta activado',
+            'updates-available' => 'Actualizaciones disponibles',
+        ],
+    ],
 ];

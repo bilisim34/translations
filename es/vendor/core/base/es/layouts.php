@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'platform_admin' => 'Avanzado',
-    'dashboard' => 'Escritorio',
-    'widgets' => 'Widgets',
-    'plugins' => 'Conectores',
+    'platform_admin' => 'Administración de la plataforma',
+    'dashboard' => 'Panel',
+    'widgets' => 'widgets',
+    'plugins' => 'Complementos',
     'settings' => 'Ajustes',
     'setting_general' => 'General',
     'setting_email' => 'Correo electrónico',
@@ -12,13 +12,14 @@ return [
     'theme' => 'Diseño',
     'copyright' => 'Copyright :year &copy; :company. Version: <span>:version</span>',
     'profile' => 'Perfil',
-    'logout' => 'Salir',
-    'no_search_result' => 'No se encontraron resultados...',
+    'logout' => 'Cerrar sesión',
+    'no_search_result' => 'No se encontraron resultados, por favor prueba con palabras clave diferentes.',
     'home' => 'Inicio',
     'search' => 'Buscar',
-    'add_new' => 'ES	EN	VI'."\n"
-        .'Agregar',
-    'n_a' => 'N/A',
+    'add_new' => 'Añadir nuevo',
+    'n_a' => 'N / A',
+    'page_loaded_in_time' => 'Página cargada en :time segundos',
+    'view_website' => 'Ver sitio web',
+    'tools' => 'Herramientas',
     'page_loaded_time' => 'Pagina cargada en',
-    'view_website' => 'Ver tienda',
 ];

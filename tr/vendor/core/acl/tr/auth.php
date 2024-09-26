@@ -2,8 +2,8 @@
 
 return [
     'login' => [
-        'username' => 'Email/Username',
-        'email' => 'Email',
+        'username' => 'Email/ Kullanıcı Adı',
+        'email' => 'E-posta',
         'password' => 'Şifre',
         'title' => 'Kullanıcı Girişi',
         'remember' => 'Beni hatırladın mı?',
@@ -28,7 +28,7 @@ return [
     'reset' => [
         'new_password' => 'Yeni şifre',
         'password_confirmation' => 'Yeni şifreyi onayla',
-        'email' => 'Email',
+        'email' => 'E-posta',
         'title' => 'Şifrenizi sıfırlayın',
         'update' => 'Güncelle',
         'wrong_token' => 'Bu bağlantı geçersiz veya süresi dolmuş. Lütfen sıfırlama formunu tekrar kullanmayı deneyin.',
@@ -55,7 +55,7 @@ return [
     ],
     'password_confirmation' => 'Şifre onayı',
     'failed' => 'Başarısız',
-    'throttle' => 'Boğaz Kelebeği',
+    'throttle' => 'Kısıtlı',
     'not_member' => 'Henüz üye değil misiniz?',
     'register_now' => 'Şimdi kayıt ol',
     'lost_your_password' => 'Şifrenizi mi kaybettiniz?',
@@ -69,6 +69,14 @@ return [
         'email' => [
             'title' => 'ACL',
             'description' => 'ACL e-posta yapılandırması',
+            'templates' => [
+                'password_reminder' => [
+                    'title' => 'Şifreyi sıfırla',
+                    'description' => 'Şifre sıfırlama talebinde bulunulduğunda kullanıcıya e-posta gönder',
+                    'subject' => 'Reset Password',
+                    'reset_link' => 'Parola sıfırlama bağlantısı',
+                ],
+            ],
         ],
     ],
 ];

@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'request_submitted' => 'Talebiniz gönderildi. Lütfen onaylamak için e-postanızı kontrol edin.',
-    'confirm_url' => 'Silme onay URL\'si',
-    'deletion_confirmed' => 'Hesabınız silindi!',
-    'back_to_homepage' => 'Ana sayfaya dön',
+    'request_submitted' => 'İsteğiniz sunulmuştur. Onaylamak için lütfen emaillerinizi kontrol edin.',
+    'confirm_url' => 'Silme onayı URL\'si',
+    'deletion_confirmed' => 'Hesabınız silinmiştir!',
+    'back_to_homepage' => 'ana sayfaya geri dön',
     'reason' => 'Sebep',
-    'confirmed_at' => 'Onaylandığı tarih',
-    'deleted_at' => 'Şu tarihte silindi',
-'statuses' => [
-        'waiting_for_confirmation' => 'Onay bekleniyor',
-        'confirmed' => 'Onaylandı',
+    'confirmed_at' => 'Onaylanma tarihi:',
+    'deleted_at' => 'Silinme tarihi:',
+    'statuses' => [
+        'waiting_for_confirmation' => 'onay bekliyor',
+        'confirmed' => 'Onaylanmış',
         'canceled' => 'İptal edildi',
     ],
 ];

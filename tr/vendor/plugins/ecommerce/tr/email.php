@@ -4,7 +4,9 @@ return [
     'customer_new_order_title' => 'Sipariş Onayı',
     'customer_new_order_description' => 'Bir sipariş verildiğinde müşteriye e-posta onayı gönder',
     'order_cancellation_title' => 'Sipariş İptali',
-    'order_cancellation_description' => 'Siparişi iptal ettiklerinde özele gönder',
+    'customer_order_cancellation_description' => 'Siparişi iptal ettiğinde müşteriye gönder',
+    'admin_order_cancellation_title' => 'Sipariş iptali (Yönetici tarafından)',
+    'admin_order_cancellation_description' => 'Yönetici bir siparişi iptal ettiğinde müşteriye gönder',
     'delivery_confirmation_title' => 'Teslim Onayı',
     'delivery_confirmation_description' => 'Sipariş teslim edilirken müşteriye gönder',
     'order_delivered_title' => 'Sipariş teslim edildi',
@@ -23,4 +25,5 @@ return [
     'order_information' => 'Sipariş Bilgisi:',
     'order_return_request_title' => 'Sipariş İade Talebi',
     'order_return_request_description' => 'Siparişi iptal ettiklerinde özele gönder',
+    'order_cancellation_description' => 'Siparişi iptal ettiklerinde özele gönder',
 ];

@@ -2,5 +2,6 @@
 
 return [
     'name' => 'Kategoriler',
-    'create' => 'Yeni kategori',
+    'create' => 'Yeni Kategori',
+    'edit' => 'Kategoriyi Düzenle',
 ];

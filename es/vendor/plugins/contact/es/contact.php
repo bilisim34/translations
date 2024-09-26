@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'name' => 'Contactos',
+    'contact_form' => 'Formulario de contacto',
     'menu' => 'Contacto',
     'edit' => 'Ver contacto',
     'tables' => [
@@ -26,7 +28,7 @@ return [
         ],
         'email' => [
             'required' => 'Necesitamos un correo electrónico!',
-            'email' => 'The email address is not valid',
+            'email' => 'La dirección de correo electrónico no es válida',
         ],
         'content' => [
             'required' => 'Es necesario el contenido de su mensaje.',
@@ -45,6 +47,7 @@ return [
     'form_subject' => 'Asunto',
     'form_phone' => 'Teléfono',
     'form_message' => 'Mensaje',
+    'form_content' => 'Contenido',
     'required_field' => 'Los campos marcados con (<span style="color: red">*</span>) son obligatorios.',
     'send_btn' => 'Enviar mensaje',
     'new_msg_notice' => 'Tienes <span class="bold">:count</span> Mensajes nuevos',
@@ -62,9 +65,18 @@ return [
             'description' => 'Configuración de correo electrónico de contacto',
             'templates' => [
                 'notice_title' => 'Enviar aviso al administrador',
-                'notice_description' => 'Plantilla de correo electrónico para enviar un aviso al administrador cuando el sistema obtenga un nuevo contacto',
+                'notice_description' => 'Plantilla de correo electrónico para enviar un aviso al administrador cuando el sistema recibe un nuevo contacto.',
             ],
         ],
+        'title' => 'Contacto',
+        'description' => 'Configuración para el complemento de contacto',
+        'blacklist_keywords' => 'Palabras clave de la lista negra',
+        'blacklist_keywords_placeholder' => 'palabras clave...',
+        'blacklist_keywords_helper' => 'Solicitudes de contacto en la lista negra si incluye esas palabras clave en el campo de contenido (separadas por coma).',
+        'enable_math_captcha_in_contact_form' => '¿Habilitar Math Captcha en el formulario de contacto?',
+        'receiver_emails' => 'Correos electrónicos del receptor',
+        'receiver_emails_placeholder' => 'Puedes ingresar más de 1 correo electrónico (separados por coma)',
+        'receiver_emails_helper' => 'Estos correos electrónicos se recibirán por correo electrónico desde el formulario de contacto. Déjelo en blanco y el correo electrónico se enviará al correo electrónico del administrador.',
     ],
     'no_reply' => '¡Aún no hay respuesta!',
     'reply' => 'Responder',
@@ -73,4 +85,32 @@ return [
     'shortcode_description' => 'Agregar un formulario de contacto',
     'shortcode_content_description' => 'Agregar código [contact-form][/contact-form] al editor?',
     'message_sent_success' => 'Mensaje enviado!',
+    'dropdown_show_label' => 'Mostrar contactos',
+    'display_fields' => 'Mostrar campos',
+    'mandatory_fields' => 'Campos obligatorios',
+    'mandatory_fields_helper_text' => 'Si está en blanco, se validará por configuración predeterminada. El nombre y el mensaje siempre son obligatorios.',
+    'custom_field' => [
+        'order' => 'Pedido',
+        'name' => 'Campos Personalizados',
+        'create' => 'Crear campo personalizado',
+        'type' => 'Tipo',
+        'required' => 'Requerido',
+        'placeholder' => 'Marcador de posición',
+        'options' => 'Opciones',
+        'option' => [
+            'label' => 'Etiqueta',
+            'value' => 'Valor',
+            'add' => 'Agregar nueva opción',
+        ],
+        'enums' => [
+            'types' => [
+                'text' => 'Texto',
+                'number' => 'Número',
+                'dropdown' => 'Desplegable',
+                'checkbox' => 'Caja',
+                'radio' => 'Radio',
+                'textarea' => 'área de texto',
+            ],
+        ],
+    ],
 ];

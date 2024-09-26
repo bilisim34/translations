@@ -5,6 +5,6 @@ return [
     'menu' => 'Kategoriler',
     'edit_this_category' => 'Bu kategoriyi düzenle',
     'menu_name' => 'Kategoriler',
-    'none' => 'None',
-    'total_posts' => 'Toplam :total gönderi',
+    'none' => 'Yok',
+    'total_posts' => 'Toplam gönderiler: :total',
 ];

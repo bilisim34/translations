@@ -22,7 +22,7 @@ return [
         'username' => 'Kullanıcı Adı',
         'add_user' => 'Süper Kullanıcı Ekle',
         'cancel' => 'İptal',
-        'create' => 'Create',
+        'create' => 'Oluştur',
     ],
     'options' => [
         'features' => 'Özellik Erişim Kontrolü',
@@ -73,6 +73,7 @@ return [
     'copy_report' => 'Raporu Kopyala',
     'package_name' => 'Paket Adı',
     'dependency_name' => 'Bağımlılık Adı',
+                               
     'version' => 'Sürüm',
     'cms_version' => 'CMS Sürümü',
     'imagick_or_gd_ext' => 'Imagick/GD Ext',
@@ -81,7 +82,7 @@ return [
     'iconv' => 'Iconv Ext',
     'memory_limit' => 'Bellek sınırı',
     'max_execution_time' => 'Maksimum yürütme süresi (s)',
-    'allow_url_fopen_enabled' => 'allow_url_fopen enabled',
+    'allow_url_fopen_enabled' => 'allow_url_fopen etkinleştirildi',
     'cleanup' => [
         'title' => 'Sistemi Temizle',
         'description' => 'Veritabanındaki kullanılmayan verilerinizi temizleyin',
@@ -96,4 +97,5 @@ return [
         'success_message' => 'Cleaned data successfully',
         'not_enabled_yet' => 'Bu özellik henüz etkinleştirilmedi. <br />.env: dosyasına  <code>CMS_ENABLED_CLEANUP_DATABASE=true</code> bumu ekleyin',
     ],
+    'cache_too_large_alert' => 'Önbellek klasörünüz çok büyük ~:size. Lütfen Platform yönetimi -> Önbellek yönetimi\'ne gidin ve disk alanını azaltmak için temizleyin.',
 ];

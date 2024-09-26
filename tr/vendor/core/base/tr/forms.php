@@ -56,4 +56,5 @@ return [
     'select_placeholder' => 'Bir seçenek seçin',
     'selected' => 'seçili',
     'count_selected' => ':count seçili',
+    'sort_order' => 'Sırala',
 ];
