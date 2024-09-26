@@ -3,9 +3,8 @@
 return [
     'name' => 'İller',
     'description' => 'Konum durumlarını yönet',
-    'create' => 'Yeni İl',
+    'create' => 'Yeni durum',
     'country' => 'Ülke',
-    'select_country' => 'Ülke Seçiniz...',
-    'state' => 'İl',
-    'edit' => 'İli düzenle',
+    'select_country' => 'Bir ülke seçin...',
+    'state' => 'Eyalet',
 ];

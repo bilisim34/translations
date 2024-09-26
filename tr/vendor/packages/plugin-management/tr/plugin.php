@@ -8,6 +8,7 @@ return [
     'activate' => 'Etkinleştir',
     'deactivate' => 'Pasif Yap',
     'author' => 'Yazan',
+    'search' => 'Ara...',
     'update_plugin_status_success' => 'Eklentiyi başarıyla güncelle',
     'plugins' => 'Eklentiler',
     'installed_plugins' => 'Yüklü Eklentiler',

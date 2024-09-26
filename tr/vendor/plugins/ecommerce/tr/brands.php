@@ -2,6 +2,7 @@
 
 return [
     'name' => 'Markalar',
+    'brands' => 'Markalar',              
     'create' => 'Yeni marka',
     'edit' => 'Markayı düzenle',
     'form' => [
@@ -10,6 +11,7 @@ return [
         'description' => 'Açıklama',
         'description_placeholder' => 'Marka için kısa açıklama (En fazla 400 karakter)',
         'website' => 'İnternet sitesi',
+                                                           
         'logo' => 'Logo',
         'is_featured' => 'Özellikleri Var Mı?',
     ],
@@ -22,12 +24,11 @@ return [
     'cannot_delete' => 'Marka silinemedi',
     'brand_deleted' => 'Marka silindi',
     'menu' => 'Markalar',
-    'select_brand' => 'Bir marka seçin...',
+    'no_brand' => 'Marka yok',
     'intro' => [
         'title' => 'Markaları Yönet',
         'description' => 'Nike, Adidas, Bitis gibi ürün markalarını yönetin...',
         'button_text' => 'Marka oluştur',
     ],
-    'edit_this_brand' => 'Bu markayı düzenle',
-    'no_brand' => 'Marka yok',
+    'edit_this_brand' => 'Bu markayı düzenleyin',                                      
 ];

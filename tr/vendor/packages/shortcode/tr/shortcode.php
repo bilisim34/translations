@@ -2,8 +2,8 @@
 
 return [
     'shortcode' => 'Kısa kod',
-    'use' => 'Kullanmak',
-    'ui-blocks' => 'Kullanıcı Arayüzü Blokları',
-    'search' => 'Aramak...',
-    'no_shortcode_found' => 'Kısa kod bulunamadı.',
+    'use' => 'Kullan',
+    'ui-blocks' => 'UI Blokları',
+    'search' => 'Araa...',
+    'no_shortcode_found' => 'Shortcode bulunamadı.',                                                                      
 ];

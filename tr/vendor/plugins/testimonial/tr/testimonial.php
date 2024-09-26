@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'name' => 'Müşteri Yorumları',
-    'description' => 'Sistem referanslarınızı yönetin',
-    'create' => 'Yeni Müşteri Yorumu',
+    'name' => 'Tavsiyeler',
+    'description' => 'Sistem tavsiyelerinizi yönetin',
+    'create' => 'Yeni tavsiye',
     'company' => 'Pozisyon/Şirket',
 ];

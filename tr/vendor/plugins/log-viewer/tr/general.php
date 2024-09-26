@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'all'  => 'All',
-    'date' => 'Date',
-    'name' => 'System logs',
+    'all'  => 'Hepsi',
+    'date' => 'Tarih',
+    'name' => 'Sistem logları',
 ];
