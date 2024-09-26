@@ -1,36 +1,66 @@
 <?php
 
 return [
+
+    /**
+     *
+     * Paylaşılan çeviriler.
+     *
+     */
     'title' => 'Kurulum',
-    'next' => 'Sonraki adım',
-    'back' => 'Öncesi',
-    'finish' => 'Düzenlemek',
+    'next' => 'Sonraki Adım',
+    'back' => 'Önceki',
+    'finish' => 'Install',
     'installation' => 'Kurulum',
     'forms' => [
-        'errorTitle' => 'şu hatalar oluştu:',
+        'errorTitle' => 'Aşağıdaki hatalar oluştu:',
     ],
+
+    /**
+     *
+     * Ana sayfa çevirileri.
+     *
+     */
     'welcome' => [
-        'title' => 'Hoş geldin',
-        'message' => 'Başlamadan önce veritabanı hakkında bazı bilgilere ihtiyacımız var. Devam etmeden önce aşağıdaki öğeleri bilmeniz gerekecektir.',
-        'language' => 'Dil',
+        'title' => 'Hoşgeldiniz',
+        'message' => 'Başlamadan önce, veritabanı hakkında bazı bilgilere ihtiyacımız var. Devam etmeden önce aşağıdaki öğeleri bilmeniz gerekecek',
+         'language' => 'Language',                       
         'next' => 'Hadi gidelim',
     ],
+
+    /**
+     *
+     * Gereksinimler sayfası çevirileri.
+     *
+     */
     'requirements' => [
         'title' => 'Sunucu Gereksinimleri',
         'next' => 'İzinleri Kontrol Et',
     ],
+
+    /**
+     *
+     * İzinler sayfası çevirileri.
+     *
+     */
     'permissions' => [
         'next' => 'Ortamı Yapılandır',
     ],
+
+    /**
+     *
+     * Çevre sayfası çevirileri.
+     *
+     */
     'environment' => [
         'wizard' => [
             'title' => 'Ortam Ayarları',
             'form' => [
-                'name_required' => 'Bir ortam adı gerekli.',
-                'app_name_label' => 'Site Başlığı',
-                'app_name_placeholder' => 'Site Başlığı',
-                'app_url_label' => 'URL\'si',
-                'app_url_placeholder' => 'URL\'si',
+                'name_required' => 'Bir ortam adı gereklidir.',
+                'app_name_label' => 'Site başlığı',
+                'app_name_placeholder' => 'Site başlığı',
+                'app_url_label' => 'URL',
+                'app_url_placeholder' => 'URL',
                 'db_connection_label' => 'Veritabanı Bağlantısı',
                 'db_connection_label_mysql' => 'MySQL',
                 'db_connection_label_sqlite' => 'SQLite',
@@ -39,16 +69,16 @@ return [
                 'db_host_placeholder' => 'Veritabanı ana bilgisayarı',
                 'db_port_label' => 'Veritabanı bağlantı noktası',
                 'db_port_placeholder' => 'Veritabanı bağlantı noktası',
-                'db_name_label' => 'Veri tabanı ismi',
-                'db_name_placeholder' => 'Veri tabanı ismi',
+                'db_name_label' => 'Veritabanı adı',
+                'db_name_placeholder' => 'Veritabanı adı',
                 'db_username_label' => 'Veritabanı kullanıcı adı',
                 'db_username_placeholder' => 'Veritabanı kullanıcı adı',
                 'db_password_label' => 'Veritabanı şifresi',
-                'db_password_placeholder' => 'Veritabanı şifresi',
+                'db_password_placeholder' => 'Veritabanı parolası',
                 'buttons' => [
-                    'install' => 'Düzenlemek',
+                    'install' => 'Yükle',
                 ],
-                'db_host_helper' => 'Laravel Sail kullanıyorsanız DB_HOST\'u DB_HOST=mysql olarak değiştirin. Bazı barındırmalarda DB_HOST, 127.0.0.1 yerine localhost olabilir',
+                'db_host_helper' => 'Eğer Laravel Sail kullanıyorsanız, DB_HOST\'u DB_HOST=mysql olarak değiştirin. Bazı hostinglerde DB_HOST 127.0.0.1 yerine localhost olabilir',
                 'db_connections' => [
                     'mysql' => 'MySQL',
                     'sqlite' => 'SQLite',
@@ -56,36 +86,51 @@ return [
                 ],
             ],
         ],
-        'success' => '.env dosya ayarlarınız kaydedildi.',
-        'errors' => '.env dosyası kaydedilemiyor. Lütfen manuel olarak oluşturun.',
-    ],
-    'theme' => [
+        'success' => '.env dosyası ayarlarınız kaydedildi.',
+        'errors' => '.env dosyası kaydedilemiyor, Lütfen elle oluşturun',
+        ],
+
+        'theme' => [
         'title' => 'Tema seç',
-        'message' => 'Web sitenizin görünümünü kişiselleştirmek için bir tema seçin. Bu seçim aynı zamanda seçilen temaya göre uyarlanmış örnek verileri de içe aktaracaktır.',
+        'message' => 'Web sitenizin görünümünü kişiselleştirmek için bir tema seçin. Bu seçim, seçilen temaya göre uyarlanmış örnek verileri de içe aktaracaktır',
     ],
+
+    /**
+     * Hesap oluşturma sayfası.
+     */
     'createAccount' => [
-        'title' => 'Hesap oluşturmak',
+        'title' => 'Hesap oluştur',
         'form' => [
-            'first_name' => 'İlk adı',
-            'last_name' => 'Soy isim',
-            'username' => 'Kullanıcı adı',
+            'first_name' => 'İlk isim',
+            'last_name' => 'Soyadı',
+            'username' => 'Kullanıcı Adı',
             'email' => 'E-posta',
             'password' => 'Şifre',
             'password_confirmation' => 'Şifre onayı',
-            'create' => 'Yaratmak',
+            'create' => 'Oluştur',
         ],
     ],
+
+    /**
+     * Lisans sayfası.
+     */
+
     'license' => [
         'title' => 'Lisansı Etkinleştir',
-        'skip' => 'Şimdilik geç',
+        'skip' => 'Şimdilik atla',
     ],
-    'install' => 'Düzenlemek',
+
+    'install' => 'Yükle',
+
     'final' => [
-        'message' => 'Uygulama başarıyla kuruldu.',
         'pageTitle' => 'Kurulum Tamamlandı',
-        'title' => 'Tamamlamak',
-        'exit' => 'Yönetici kontrol paneline gidin',
+        'title' => 'Bitti',
+        'message' => 'Uygulama başarıyla yüklendi.',
+        'exit' => 'Yönetici kontrol paneline git',
     ],
-    'install_success' => 'Başarıyla kuruldu!',
-    'install_step_title' => 'Installation - Step :step: :title',
+
+                                                   
+
+    'install_success' => 'Başarıyla yüklendi!',
+    'install_step_title' => 'Kurulum - Adım :step :title',
 ];

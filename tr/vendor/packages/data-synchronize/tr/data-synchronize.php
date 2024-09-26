@@ -2,57 +2,67 @@
 
 return [
     'tools' => [
-        'export_import_data' => 'Verileri Dışa/İçe Aktarma',
+        'export_import_data' => 'Verileri Dışa/İçe Aktar',
     ],
+
     'import' => [
-        'name' => 'İçe aktarmak',
-        'heading' => 'Import :label',
-        'failed_to_read_file' => 'Dosya geçersiz, bozuk ya da okunamayacak kadar büyük.',
+        'name' => 'İçe Aktar',
+        'heading' => 'İçe aktar :label',
+        'failed_to_read_file' => 'Dosya geçersiz veya bozuk ya da okunamayacak kadar büyük',
+
         'form' => [
-            'quick_export_message' => 'If you want to export :label data, you can do it quickly by clicking on :export_csv_link or :export_excel_link.',
-            'quick_export_button' => 'Export to :format',
+            'quick_export_message' => 'Eğer :label verilerini dışa aktarmak istiyorsanız, :export_csv_link veya :export_excel_link\'e tıklayarak bunu hızlı bir şekilde yapabilirsiniz',
+            'quick_export_button' => ':format\'a aktar',
             'dropzone_message' => 'Dosyayı buraya sürükleyip bırakın veya yüklemek için tıklayın',
-            'allowed_extensions' => 'Choose a file with following extensions: :extensions.',
-            'import_button' => 'İçe aktarmak',
-            'chunk_size' => 'Parça boyutu',
-            'chunk_size_helper' => 'Bir seferde içe aktarılacak satır sayısı yığın boyutuna göre tanımlanır. Büyük bir dosyanız varsa ve veriler çok hızlı içe aktarılıyorsa bu değeri artırın. Verileri içe aktarırken bellek sınırlamalarıyla veya ağ geçidi zaman aşımı sorunlarıyla karşılaşırsanız bu değeri azaltın.',
+            'allowed_extensions' => 'Aşağıdaki uzantılara sahip bir dosya seçin: :extensions.',
+            'import_button' => ' İçe Aktar',
+            'chunk_size' => 'Yığın boyutu',
+            'chunk_size_helper' => 'Bir seferde içe aktarılacak satır sayısı yığın boyutu ile tanımlanır. Büyük bir dosyanız varsa ve veriler çok hızlı içe aktarılıyorsa bu değeri artırın. Verileri içe aktarırken bellek sınırları veya ağ geçidi zaman aşımı sorunlarıyla karşılaşırsanız bu değeri azaltın',
         ],
+
         'failures' => [
             'title' => 'Başarısızlıklar',
-            'attribute' => 'Bağlanmak',
+            'attribute' => 'Nitelik',
             'errors' => 'Hatalar',
         ],
+
         'example' => [
             'title' => 'Örnek',
-            'download' => 'Download example :type file',
+            'download' => ' Örnek :type dosya türünü indir',
         ],
+
         'rules' => [
-            'title' => 'Tüzük',
-            'column' => 'Kolon',
+            'title' => 'Kurallar',
+            'column' => 'Sütun',
         ],
+
         'uploading_message' => 'Dosya yüklenmeye başlıyor...',
-        'uploaded_message' => 'File :file has been uploaded successfully. Start validating data...',
-        'validating_message' => 'Validating from :from to :to...',
-        'importing_message' => 'Importing from :from to :to...',
-        'done_message' => 'Imported :count :label successfully.',
+        'uploaded_message' => 'Dosya :file başarıyla yüklendi. Verileri doğrulamaya başlayın...',
+        'validating_message' => ':from\'dan :to \'ya doğrulanıyor...',
+        'importing_message' => ' :from \'dan :to \'ya aktarılıyor...',
+        'done_message' => ' İçe aktarıldı :count :label başarıyla',
         'validating_failed_message' => 'Doğrulama başarısız oldu. Lütfen aşağıdaki hataları kontrol edin.',
-        'no_data_message' => 'Verileriniz zaten güncel veya içe aktarılacak veri yok.',
+        'no_data_message' => 'Verileriniz zaten güncel veya içe aktarılacak veri yok',
     ],
+
     'export' => [
-        'name' => 'İhracat',
-        'heading' => 'Export :label',
+        'name' => 'Dışa Aktar',
+        'title' => ' Dışa Aktar :label',
+
         'form' => [
-            'all_columns_disabled' => 'Following columns will be exported: :columns.',
+            'all_columns_disabled' => 'Aşağıdaki sütunlar dışa aktarılacaktır:  :columns.',
             'columns' => 'Sütunlar',
-            'format' => 'Biçim',
-            'export_button' => 'İhracat',
+            'format' => 'Format',
+            'export_button' => 'Export',
         ],
+
         'success_message' => 'Başarıyla dışa aktarıldı.',
         'error_message' => 'Dışa aktarma başarısız oldu.',
+
         'empty_state' => [
             'title' => 'Dışa aktarılacak veri yok',
-            'description' => 'Dışa aktarılacak veri yok gibi görünüyor.',
-            'back' => 'Back to :page',
+            'description' => 'Dışa aktarılacak veri yok gibi görünüyor',
+            'back' => ' :page sayfasına geri dön',
         ],
     ],
 ];
